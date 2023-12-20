@@ -1,0 +1,126 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+  }
+
+  /* Main container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+
+  header, .logo, .nav, nav ul, nav ul li, nav ul li a{
+      background-color: white;
+  }
+
+  /* Header */
+  header {
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #ffcd00 3px solid;
+  }
+  section, .naslov{
+      width:60%;
+      margin: 0 auto;
+  }
+  .naslov{
+      display: flex;
+      justify-content:space-between;
+      
+  }
+
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    
+  }
+
+  header h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  /* Navigation */
+  nav {
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+   nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items:center;
+  }
+  nav ul li {
+    margin-left: 30px;
+  }
+
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+  }  
+  
+  section a{
+    color: black;
+    text-decoration: none;
+  }
+
+  /* Main content */
+  section{
+      padding: 30px;
+  }
+  .naslovSekcije h2{
+      padding: 20px 10px;
+      background-color:#ffcd00 ;
+      color: white;
+      text-decoration: underline;
+  }
+  .slika{
+      width: 30%;
+      padding: 10px;
+  }
+  .clanak img{
+      max-height: 100%;
+      max-width: 100%; 
+  }
+
+  .clanak{
+      background-color: white;
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+  }
+  .clanak h3, p{
+      background-color: white;
+  }
+  .clanak p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .clanak h3{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:35px;
+  }
+  .tekst{
+    width: 70%;
+  }
+  /* Footer */
+  footer {
+    background-color: #666666;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
